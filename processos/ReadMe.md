@@ -1,6 +1,11 @@
-# Questão 2 de Sistemas Operacionais
+# Processos e Threads em Sistemas Operacionais
 
-1. Pensamentos
+- Para usar este projeto em python instale as seguintes bibliotecas:
 
-- Com o intuito de controlar a quantidade de programadores em cada recurso fiz dois semáforos: semaforo_banco_de_dados e semaforo_compilador (semáforo binário)
-- Com isso o banco de dados pode receber no máximo 2 programadores por vez e o compilador 1 por vez
+  - pandas
+  - matplotlib
+
+- Ordem de compilação:
+  1. programmer.py
+  2. monitor_both.py
+  3. monitor_compiler ou monitor_db (para gráficos individuais)
