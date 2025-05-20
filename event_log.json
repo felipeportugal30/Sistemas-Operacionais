@@ -1,0 +1,1087 @@
+[
+  {
+    "time": 0.001,
+    "thread_id": 0,
+    "event": "thinking"
+  },
+  {
+    "time": 0.001,
+    "thread_id": 1,
+    "event": "thinking"
+  },
+  {
+    "time": 0.001,
+    "thread_id": 2,
+    "event": "thinking"
+  },
+  {
+    "time": 0.001,
+    "thread_id": 3,
+    "event": "thinking"
+  },
+  {
+    "time": 0.002,
+    "thread_id": 4,
+    "event": "thinking"
+  },
+  {
+    "time": 5.779,
+    "thread_id": 1,
+    "event": "acquire_db"
+  },
+  {
+    "time": 5.779,
+    "thread_id": 1,
+    "event": "acquire_compiler"
+  },
+  {
+    "time": 5.779,
+    "thread_id": 1,
+    "event": "acquire_both"
+  },
+  {
+    "time": 5.779,
+    "thread_id": 1,
+    "event": "compiling"
+  },
+  {
+    "time": 6.246,
+    "thread_id": 0,
+    "event": "acquire_db"
+  },
+  {
+    "time": 6.246,
+    "thread_id": 0,
+    "event": "release_db"
+  },
+  {
+    "time": 7.294,
+    "thread_id": 4,
+    "event": "acquire_db"
+  },
+  {
+    "time": 7.295,
+    "thread_id": 4,
+    "event": "release_db"
+  },
+  {
+    "time": 7.379,
+    "thread_id": 3,
+    "event": "acquire_db"
+  },
+  {
+    "time": 7.379,
+    "thread_id": 3,
+    "event": "release_db"
+  },
+  {
+    "time": 7.826,
+    "thread_id": 2,
+    "event": "acquire_db"
+  },
+  {
+    "time": 7.826,
+    "thread_id": 2,
+    "event": "release_db"
+  },
+  {
+    "time": 8.465,
+    "thread_id": 0,
+    "event": "acquire_db"
+  },
+  {
+    "time": 8.465,
+    "thread_id": 0,
+    "event": "release_db"
+  },
+  {
+    "time": 9.418,
+    "thread_id": 4,
+    "event": "acquire_db"
+  },
+  {
+    "time": 9.418,
+    "thread_id": 4,
+    "event": "release_db"
+  },
+  {
+    "time": 9.828,
+    "thread_id": 3,
+    "event": "acquire_db"
+  },
+  {
+    "time": 9.829,
+    "thread_id": 3,
+    "event": "release_db"
+  },
+  {
+    "time": 10.821,
+    "thread_id": 2,
+    "event": "acquire_db"
+  },
+  {
+    "time": 10.821,
+    "thread_id": 2,
+    "event": "release_db"
+  },
+  {
+    "time": 11.783,
+    "thread_id": 4,
+    "event": "acquire_db"
+  },
+  {
+    "time": 11.783,
+    "thread_id": 4,
+    "event": "release_db"
+  },
+  {
+    "time": 12.135,
+    "thread_id": 1,
+    "event": "finishing_compiling"
+  },
+  {
+    "time": 12.135,
+    "thread_id": 1,
+    "event": "release_compiler"
+  },
+  {
+    "time": 12.135,
+    "thread_id": 1,
+    "event": "release_db"
+  },
+  {
+    "time": 12.135,
+    "thread_id": 1,
+    "event": "thinking"
+  },
+  {
+    "time": 12.154,
+    "thread_id": 0,
+    "event": "acquire_db"
+  },
+  {
+    "time": 12.154,
+    "thread_id": 0,
+    "event": "acquire_compiler"
+  },
+  {
+    "time": 12.154,
+    "thread_id": 0,
+    "event": "acquire_both"
+  },
+  {
+    "time": 12.154,
+    "thread_id": 0,
+    "event": "compiling"
+  },
+  {
+    "time": 12.505,
+    "thread_id": 3,
+    "event": "acquire_db"
+  },
+  {
+    "time": 12.505,
+    "thread_id": 3,
+    "event": "release_db"
+  },
+  {
+    "time": 14.662,
+    "thread_id": 2,
+    "event": "acquire_db"
+  },
+  {
+    "time": 14.663,
+    "thread_id": 2,
+    "event": "release_db"
+  },
+  {
+    "time": 14.715,
+    "thread_id": 3,
+    "event": "acquire_db"
+  },
+  {
+    "time": 14.715,
+    "thread_id": 3,
+    "event": "release_db"
+  },
+  {
+    "time": 15.741,
+    "thread_id": 4,
+    "event": "acquire_db"
+  },
+  {
+    "time": 15.741,
+    "thread_id": 4,
+    "event": "release_db"
+  },
+  {
+    "time": 17.066,
+    "thread_id": 3,
+    "event": "acquire_db"
+  },
+  {
+    "time": 17.066,
+    "thread_id": 3,
+    "event": "release_db"
+  },
+  {
+    "time": 17.424,
+    "thread_id": 2,
+    "event": "acquire_db"
+  },
+  {
+    "time": 17.424,
+    "thread_id": 2,
+    "event": "release_db"
+  },
+  {
+    "time": 18.664,
+    "thread_id": 4,
+    "event": "acquire_db"
+  },
+  {
+    "time": 18.665,
+    "thread_id": 4,
+    "event": "release_db"
+  },
+  {
+    "time": 19.082,
+    "thread_id": 0,
+    "event": "finishing_compiling"
+  },
+  {
+    "time": 19.082,
+    "thread_id": 0,
+    "event": "release_compiler"
+  },
+  {
+    "time": 19.082,
+    "thread_id": 0,
+    "event": "release_db"
+  },
+  {
+    "time": 19.082,
+    "thread_id": 0,
+    "event": "thinking"
+  },
+  {
+    "time": 19.439,
+    "thread_id": 2,
+    "event": "acquire_db"
+  },
+  {
+    "time": 19.44,
+    "thread_id": 2,
+    "event": "acquire_compiler"
+  },
+  {
+    "time": 19.44,
+    "thread_id": 2,
+    "event": "acquire_both"
+  },
+  {
+    "time": 19.44,
+    "thread_id": 2,
+    "event": "compiling"
+  },
+  {
+    "time": 19.523,
+    "thread_id": 1,
+    "event": "acquire_db"
+  },
+  {
+    "time": 19.523,
+    "thread_id": 1,
+    "event": "release_db"
+  },
+  {
+    "time": 19.622,
+    "thread_id": 3,
+    "event": "acquire_db"
+  },
+  {
+    "time": 19.622,
+    "thread_id": 3,
+    "event": "release_db"
+  },
+  {
+    "time": 20.895,
+    "thread_id": 4,
+    "event": "acquire_db"
+  },
+  {
+    "time": 20.895,
+    "thread_id": 4,
+    "event": "release_db"
+  },
+  {
+    "time": 21.949,
+    "thread_id": 1,
+    "event": "acquire_db"
+  },
+  {
+    "time": 21.949,
+    "thread_id": 1,
+    "event": "release_db"
+  },
+  {
+    "time": 22.488,
+    "thread_id": 3,
+    "event": "acquire_db"
+  },
+  {
+    "time": 22.489,
+    "thread_id": 3,
+    "event": "release_db"
+  },
+  {
+    "time": 23.255,
+    "thread_id": 4,
+    "event": "acquire_db"
+  },
+  {
+    "time": 23.256,
+    "thread_id": 4,
+    "event": "release_db"
+  },
+  {
+    "time": 24.625,
+    "thread_id": 1,
+    "event": "acquire_db"
+  },
+  {
+    "time": 24.625,
+    "thread_id": 1,
+    "event": "release_db"
+  },
+  {
+    "time": 25.613,
+    "thread_id": 2,
+    "event": "finishing_compiling"
+  },
+  {
+    "time": 25.613,
+    "thread_id": 2,
+    "event": "release_compiler"
+  },
+  {
+    "time": 25.613,
+    "thread_id": 2,
+    "event": "release_db"
+  },
+  {
+    "time": 25.613,
+    "thread_id": 2,
+    "event": "thinking"
+  },
+  {
+    "time": 25.624,
+    "thread_id": 3,
+    "event": "acquire_db"
+  },
+  {
+    "time": 25.625,
+    "thread_id": 3,
+    "event": "acquire_compiler"
+  },
+  {
+    "time": 25.625,
+    "thread_id": 3,
+    "event": "acquire_both"
+  },
+  {
+    "time": 25.625,
+    "thread_id": 3,
+    "event": "compiling"
+  },
+  {
+    "time": 26.12,
+    "thread_id": 4,
+    "event": "acquire_db"
+  },
+  {
+    "time": 26.12,
+    "thread_id": 4,
+    "event": "release_db"
+  },
+  {
+    "time": 26.431,
+    "thread_id": 0,
+    "event": "acquire_db"
+  },
+  {
+    "time": 26.431,
+    "thread_id": 0,
+    "event": "release_db"
+  },
+  {
+    "time": 27.779,
+    "thread_id": 1,
+    "event": "acquire_db"
+  },
+  {
+    "time": 27.779,
+    "thread_id": 1,
+    "event": "release_db"
+  },
+  {
+    "time": 28.669,
+    "thread_id": 0,
+    "event": "acquire_db"
+  },
+  {
+    "time": 28.67,
+    "thread_id": 0,
+    "event": "release_db"
+  },
+  {
+    "time": 29.79,
+    "thread_id": 4,
+    "event": "acquire_db"
+  },
+  {
+    "time": 29.79,
+    "thread_id": 4,
+    "event": "release_db"
+  },
+  {
+    "time": 30.816,
+    "thread_id": 2,
+    "event": "acquire_db"
+  },
+  {
+    "time": 30.816,
+    "thread_id": 2,
+    "event": "release_db"
+  },
+  {
+    "time": 31.253,
+    "thread_id": 1,
+    "event": "acquire_db"
+  },
+  {
+    "time": 31.253,
+    "thread_id": 1,
+    "event": "release_db"
+  },
+  {
+    "time": 31.3,
+    "thread_id": 3,
+    "event": "finishing_compiling"
+  },
+  {
+    "time": 31.3,
+    "thread_id": 3,
+    "event": "release_compiler"
+  },
+  {
+    "time": 31.3,
+    "thread_id": 3,
+    "event": "release_db"
+  },
+  {
+    "time": 31.3,
+    "thread_id": 3,
+    "event": "thinking"
+  },
+  {
+    "time": 31.819,
+    "thread_id": 4,
+    "event": "acquire_db"
+  },
+  {
+    "time": 31.819,
+    "thread_id": 4,
+    "event": "acquire_compiler"
+  },
+  {
+    "time": 31.819,
+    "thread_id": 4,
+    "event": "acquire_both"
+  },
+  {
+    "time": 31.819,
+    "thread_id": 4,
+    "event": "compiling"
+  },
+  {
+    "time": 32.05,
+    "thread_id": 0,
+    "event": "acquire_db"
+  },
+  {
+    "time": 32.05,
+    "thread_id": 0,
+    "event": "release_db"
+  },
+  {
+    "time": 33.352,
+    "thread_id": 2,
+    "event": "acquire_db"
+  },
+  {
+    "time": 33.352,
+    "thread_id": 2,
+    "event": "release_db"
+  },
+  {
+    "time": 33.875,
+    "thread_id": 1,
+    "event": "acquire_db"
+  },
+  {
+    "time": 33.875,
+    "thread_id": 1,
+    "event": "release_db"
+  },
+  {
+    "time": 34.887,
+    "thread_id": 0,
+    "event": "acquire_db"
+  },
+  {
+    "time": 34.888,
+    "thread_id": 0,
+    "event": "release_db"
+  },
+  {
+    "time": 36.465,
+    "thread_id": 2,
+    "event": "acquire_db"
+  },
+  {
+    "time": 36.465,
+    "thread_id": 2,
+    "event": "release_db"
+  },
+  {
+    "time": 36.578,
+    "thread_id": 3,
+    "event": "acquire_db"
+  },
+  {
+    "time": 36.578,
+    "thread_id": 3,
+    "event": "release_db"
+  },
+  {
+    "time": 36.594,
+    "thread_id": 1,
+    "event": "acquire_db"
+  },
+  {
+    "time": 36.594,
+    "thread_id": 1,
+    "event": "release_db"
+  },
+  {
+    "time": 38.025,
+    "thread_id": 0,
+    "event": "acquire_db"
+  },
+  {
+    "time": 38.025,
+    "thread_id": 0,
+    "event": "release_db"
+  },
+  {
+    "time": 38.698,
+    "thread_id": 4,
+    "event": "finishing_compiling"
+  },
+  {
+    "time": 38.698,
+    "thread_id": 4,
+    "event": "release_compiler"
+  },
+  {
+    "time": 38.698,
+    "thread_id": 4,
+    "event": "release_db"
+  },
+  {
+    "time": 38.698,
+    "thread_id": 4,
+    "event": "thinking"
+  },
+  {
+    "time": 38.751,
+    "thread_id": 3,
+    "event": "acquire_db"
+  },
+  {
+    "time": 38.751,
+    "thread_id": 3,
+    "event": "acquire_compiler"
+  },
+  {
+    "time": 38.751,
+    "thread_id": 3,
+    "event": "acquire_both"
+  },
+  {
+    "time": 38.751,
+    "thread_id": 3,
+    "event": "compiling"
+  },
+  {
+    "time": 39.044,
+    "thread_id": 1,
+    "event": "acquire_db"
+  },
+  {
+    "time": 39.044,
+    "thread_id": 1,
+    "event": "release_db"
+  },
+  {
+    "time": 39.865,
+    "thread_id": 2,
+    "event": "acquire_db"
+  },
+  {
+    "time": 39.865,
+    "thread_id": 2,
+    "event": "release_db"
+  },
+  {
+    "time": 40.945,
+    "thread_id": 0,
+    "event": "acquire_db"
+  },
+  {
+    "time": 40.945,
+    "thread_id": 0,
+    "event": "release_db"
+  },
+  {
+    "time": 41.238,
+    "thread_id": 1,
+    "event": "acquire_db"
+  },
+  {
+    "time": 41.238,
+    "thread_id": 1,
+    "event": "release_db"
+  },
+  {
+    "time": 42.175,
+    "thread_id": 2,
+    "event": "acquire_db"
+  },
+  {
+    "time": 42.175,
+    "thread_id": 2,
+    "event": "release_db"
+  },
+  {
+    "time": 44.643,
+    "thread_id": 0,
+    "event": "acquire_db"
+  },
+  {
+    "time": 44.643,
+    "thread_id": 0,
+    "event": "release_db"
+  },
+  {
+    "time": 44.67,
+    "thread_id": 1,
+    "event": "acquire_db"
+  },
+  {
+    "time": 44.67,
+    "thread_id": 1,
+    "event": "release_db"
+  },
+  {
+    "time": 45.074,
+    "thread_id": 4,
+    "event": "acquire_db"
+  },
+  {
+    "time": 45.074,
+    "thread_id": 4,
+    "event": "release_db"
+  },
+  {
+    "time": 45.441,
+    "thread_id": 2,
+    "event": "acquire_db"
+  },
+  {
+    "time": 45.441,
+    "thread_id": 2,
+    "event": "release_db"
+  },
+  {
+    "time": 46.366,
+    "thread_id": 3,
+    "event": "finishing_compiling"
+  },
+  {
+    "time": 46.366,
+    "thread_id": 3,
+    "event": "release_compiler"
+  },
+  {
+    "time": 46.366,
+    "thread_id": 3,
+    "event": "release_db"
+  },
+  {
+    "time": 46.366,
+    "thread_id": 3,
+    "event": "thinking"
+  },
+  {
+    "time": 46.76,
+    "thread_id": 1,
+    "event": "acquire_db"
+  },
+  {
+    "time": 46.76,
+    "thread_id": 1,
+    "event": "acquire_compiler"
+  },
+  {
+    "time": 46.76,
+    "thread_id": 1,
+    "event": "acquire_both"
+  },
+  {
+    "time": 46.76,
+    "thread_id": 1,
+    "event": "compiling"
+  },
+  {
+    "time": 47.366,
+    "thread_id": 0,
+    "event": "acquire_db"
+  },
+  {
+    "time": 47.366,
+    "thread_id": 0,
+    "event": "release_db"
+  },
+  {
+    "time": 47.742,
+    "thread_id": 2,
+    "event": "acquire_db"
+  },
+  {
+    "time": 47.742,
+    "thread_id": 2,
+    "event": "release_db"
+  },
+  {
+    "time": 48.269,
+    "thread_id": 4,
+    "event": "acquire_db"
+  },
+  {
+    "time": 48.27,
+    "thread_id": 4,
+    "event": "release_db"
+  },
+  {
+    "time": 49.68,
+    "thread_id": 0,
+    "event": "acquire_db"
+  },
+  {
+    "time": 49.681,
+    "thread_id": 0,
+    "event": "release_db"
+  },
+  {
+    "time": 51.44,
+    "thread_id": 3,
+    "event": "acquire_db"
+  },
+  {
+    "time": 51.44,
+    "thread_id": 3,
+    "event": "release_db"
+  },
+  {
+    "time": 51.494,
+    "thread_id": 2,
+    "event": "acquire_db"
+  },
+  {
+    "time": 51.494,
+    "thread_id": 2,
+    "event": "release_db"
+  },
+  {
+    "time": 51.949,
+    "thread_id": 4,
+    "event": "acquire_db"
+  },
+  {
+    "time": 51.949,
+    "thread_id": 4,
+    "event": "release_db"
+  },
+  {
+    "time": 52.005,
+    "thread_id": 0,
+    "event": "acquire_db"
+  },
+  {
+    "time": 52.005,
+    "thread_id": 0,
+    "event": "release_db"
+  },
+  {
+    "time": 52.225,
+    "thread_id": 1,
+    "event": "finishing_compiling"
+  },
+  {
+    "time": 52.225,
+    "thread_id": 1,
+    "event": "release_compiler"
+  },
+  {
+    "time": 52.225,
+    "thread_id": 1,
+    "event": "release_db"
+  },
+  {
+    "time": 52.225,
+    "thread_id": 1,
+    "event": "thinking"
+  },
+  {
+    "time": 53.977,
+    "thread_id": 2,
+    "event": "acquire_db"
+  },
+  {
+    "time": 53.977,
+    "thread_id": 2,
+    "event": "acquire_compiler"
+  },
+  {
+    "time": 53.977,
+    "thread_id": 2,
+    "event": "acquire_both"
+  },
+  {
+    "time": 53.977,
+    "thread_id": 2,
+    "event": "compiling"
+  },
+  {
+    "time": 54.606,
+    "thread_id": 0,
+    "event": "acquire_db"
+  },
+  {
+    "time": 54.606,
+    "thread_id": 0,
+    "event": "release_db"
+  },
+  {
+    "time": 55.261,
+    "thread_id": 3,
+    "event": "acquire_db"
+  },
+  {
+    "time": 55.261,
+    "thread_id": 3,
+    "event": "release_db"
+  },
+  {
+    "time": 55.772,
+    "thread_id": 4,
+    "event": "acquire_db"
+  },
+  {
+    "time": 55.772,
+    "thread_id": 4,
+    "event": "release_db"
+  },
+  {
+    "time": 57.022,
+    "thread_id": 0,
+    "event": "acquire_db"
+  },
+  {
+    "time": 57.022,
+    "thread_id": 0,
+    "event": "release_db"
+  },
+  {
+    "time": 58.125,
+    "thread_id": 3,
+    "event": "acquire_db"
+  },
+  {
+    "time": 58.126,
+    "thread_id": 3,
+    "event": "release_db"
+  },
+  {
+    "time": 58.421,
+    "thread_id": 1,
+    "event": "acquire_db"
+  },
+  {
+    "time": 58.421,
+    "thread_id": 1,
+    "event": "release_db"
+  },
+  {
+    "time": 59.341,
+    "thread_id": 4,
+    "event": "acquire_db"
+  },
+  {
+    "time": 59.341,
+    "thread_id": 4,
+    "event": "release_db"
+  },
+  {
+    "time": 59.504,
+    "thread_id": 0,
+    "event": "acquire_db"
+  },
+  {
+    "time": 59.504,
+    "thread_id": 0,
+    "event": "release_db"
+  },
+  {
+    "time": 60.651,
+    "thread_id": 3,
+    "event": "acquire_db"
+  },
+  {
+    "time": 60.651,
+    "thread_id": 3,
+    "event": "release_db"
+  },
+  {
+    "time": 61.332,
+    "thread_id": 2,
+    "event": "finishing_compiling"
+  },
+  {
+    "time": 61.332,
+    "thread_id": 2,
+    "event": "release_compiler"
+  },
+  {
+    "time": 61.332,
+    "thread_id": 2,
+    "event": "release_db"
+  },
+  {
+    "time": 61.332,
+    "thread_id": 2,
+    "event": "thinking"
+  },
+  {
+    "time": 61.538,
+    "thread_id": 0,
+    "event": "acquire_db"
+  },
+  {
+    "time": 61.538,
+    "thread_id": 0,
+    "event": "acquire_compiler"
+  },
+  {
+    "time": 61.538,
+    "thread_id": 0,
+    "event": "acquire_both"
+  },
+  {
+    "time": 61.538,
+    "thread_id": 0,
+    "event": "compiling"
+  },
+  {
+    "time": 61.641,
+    "thread_id": 1,
+    "event": "acquire_db"
+  },
+  {
+    "time": 61.642,
+    "thread_id": 1,
+    "event": "release_db"
+  },
+  {
+    "time": 62.885,
+    "thread_id": 3,
+    "event": "acquire_db"
+  },
+  {
+    "time": 62.885,
+    "thread_id": 3,
+    "event": "release_db"
+  },
+  {
+    "time": 63.096,
+    "thread_id": 4,
+    "event": "acquire_db"
+  },
+  {
+    "time": 63.096,
+    "thread_id": 4,
+    "event": "release_db"
+  },
+  {
+    "time": 63.8,
+    "thread_id": 1,
+    "event": "acquire_db"
+  },
+  {
+    "time": 63.8,
+    "thread_id": 1,
+    "event": "release_db"
+  },
+  {
+    "time": 65.814,
+    "thread_id": 4,
+    "event": "acquire_db"
+  },
+  {
+    "time": 65.814,
+    "thread_id": 4,
+    "event": "release_db"
+  },
+  {
+    "time": 66.388,
+    "thread_id": 2,
+    "event": "acquire_db"
+  },
+  {
+    "time": 66.388,
+    "thread_id": 2,
+    "event": "release_db"
+  },
+  {
+    "time": 66.723,
+    "thread_id": 3,
+    "event": "acquire_db"
+  },
+  {
+    "time": 66.724,
+    "thread_id": 3,
+    "event": "release_db"
+  },
+  {
+    "time": 67.43,
+    "thread_id": 1,
+    "event": "acquire_db"
+  },
+  {
+    "time": 67.43,
+    "thread_id": 1,
+    "event": "release_db"
+  }
+]
