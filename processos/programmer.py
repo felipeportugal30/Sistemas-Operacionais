@@ -64,34 +64,40 @@ class Programmer(threading.Thread):
         self.isComp = True
     """
         
-    # impede que múltiplas threads entrem nesse bloco ao mesmo tempo, evitando deadlock e inaninação
+    
     def acess_resources(self):
       while True:
           got_db = False
           got_comp = False
 
-          with acquire_lock:  
+          # impede que múltiplas threads entrem nesse bloco ao mesmo tempo, 
+          # evitando deadlock e inaninação
+          with acquire_lock:
+              # blocking = False => evita que o programador segure um recurso
               got_db = sem_db.acquire(blocking=False)
 
+              # tenta acessar o banco de dados
               if got_db:
                   logEvent(self.id, "acquire_db")
                   print(f"[ADB {self.id}] Programmer {self.id} accessed database.")
 
                   got_comp = sem_comp.acquire(blocking=False)
 
+                  # se acessar o banco, tenta acessar o compilador
                   if got_comp:
                       logEvent(self.id, "acquire_compiler")
-                      print(f"[ACP {self.id}] ⬆️Programmer {self.id} accessed compiler.")
+                      print(f"[ACP {self.id}] Programmer {self.id} accessed compiler.")
                       logEvent(self.id, "acquire_both")
-                      print(f"[ABR {self.id}] ⬆️Programmer {self.id} accessed both resources.")
+                      print(f"[ABR {self.id}] Programmer {self.id} accessed both resources.")
 
                       self.isDb = True
                       self.isComp = True
-                      return  # <-- SÓ retorna se tiver os dois
+                      return  # só retorna se tiver os dois
                   else:
-                      sem_db.release()
+                      # libera o banco de dados se não conseguir acessar o compilador
+                      sem_db.release() 
                       logEvent(self.id, "release_db")
-                      print(f"[RDB {self.id}] ⬇️Programmer {self.id} released DB.")
+                      print(f"[RDB {self.id}] Programmer {self.id} released DB.")
 
           time.sleep(random.uniform(2, 4))  # espera antes de tentar de novo
 
