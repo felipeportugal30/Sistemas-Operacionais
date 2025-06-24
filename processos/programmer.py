@@ -148,7 +148,7 @@ if __name__ == "__main__":
         while True:
             time.sleep(1)
     except KeyboardInterrupt:
-        with open("./event_log.json", "w") as f:
+        with open("./logs/event_log.json", "w") as f:
             json.dump(event_log, f, indent=2)
 
         print("\n✅ Logs saved in 'event_log.json'")

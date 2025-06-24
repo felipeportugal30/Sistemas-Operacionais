@@ -22,7 +22,7 @@ def fifo (ref, num_mold):
       if len(memoria) >= num_mold:
         memoria.popleft() # Sai o primeiro que entrou
       memoria.append(pagina)
-    logs(memoria, faltas)
+    logs("FIFO", memoria, faltas)
   return faltas
 
 # ------------ Algoritmo de Envelhecimento ------------
@@ -45,15 +45,48 @@ def envelhecimento (ref, num_mold,bits=8):
       memoria.append(pagina)
       frequencia[pagina] = 256
 
-    logs(memoria, faltas, frequencia)  
+    logs("ENVELHECIMENTO", memoria, faltas, frequencia)  
   return faltas
 
 # ------------ Logs ------------
-def logs (memoria, faltas, frequencia=None):
-  print(f"\033[34mMemória\033[0m\t-> \033[32m{list(memoria)}\033[0m")
-  if frequencia:
-    print(f"\033[34mFreq\033[0m\t-> \033[32m{frequencia}\033[0m")
-  print(f"\033[33mFaltas\033[0m\t-> \033[31m{faltas}\033[0m")
+import json
+from collections import defaultdict
+
+global_logs = defaultdict(list)
+
+def logs (algoritmo, memoria, faltas, frequencia=None, save_to_file=True):
+  log_entry = {
+      "memoria": list(memoria),
+      "frequencia": frequencia if frequencia else None,
+      "faltas": faltas
+  }
+
+  global_logs[algoritmo].append(log_entry)
+
+  # print(f"\033[1;4m{algoritmo}\033[0m")
+  # print(f"\033[1;34mMemória\033[0m\t-> \033[32m{list(memoria)}\033[0m")
+  # if frequencia:
+  #   print(f"\033[1;36mFreq\033[0m\t-> \033[35m{frequencia}\033[0m")
+  # print(f"\033[1;33mFaltas\033[0m\t-> \033[31m{faltas}\033[0m")
+
+from pathlib import Path
+
+def save_logs_to_file(processos, logs, filename='./logs/memoria_logs.json'):
+    try:
+        Path(filename).parent.mkdir(parents=True, exist_ok=True)
+
+        data_to_save = {
+            "sequencia_processos": processos,
+            "logs_algoritmos": logs
+        }
+        
+        with open(filename, 'w', encoding='utf-8') as f:
+            json.dump(data_to_save, f, indent=4, ensure_ascii=False)
+            
+        print(f"Logs salvos com sucesso em: {filename}")
+    except (IOError, OSError) as e:
+        print(f"Erro ao salvar logs: {str(e)}")
+        raise
   
 
 # ------------ Simulação ------------
@@ -62,5 +95,11 @@ def simular (ref, num_mold):
   faltas_envelhecimento = envelhecimento(ref, num_mold)
   return faltas_fifo, faltas_envelhecimento
 
-ref = ["A","B","A","C","D","E","F","G","F","G","E","H","H","E","F","G"]
-envelhecimento(ref, 3)
+from gaussiana import gerar_rastro_acesso
+
+if __name__ == "__main__":
+    rastro_do_processo = gerar_rastro_acesso()
+
+    simular(rastro_do_processo, 10)
+
+    save_logs_to_file(rastro_do_processo, global_logs)

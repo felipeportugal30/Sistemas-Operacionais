@@ -1,2 +1,5 @@
 venv/
 .vscode/
+./memoria/__pycache__
+./logs
+./graficos

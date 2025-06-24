@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_json("/home/felipe-portugal/sistemas-operacionais/event_log.json")
+df = pd.read_json("/home/felipe-portugal/sistemas-operacionais/logs/event_log.json")
 
 compiler_states = {}
 last_time = 0
