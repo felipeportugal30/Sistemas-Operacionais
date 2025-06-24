@@ -1,5 +1,25 @@
+# Diretórios de ambiente virtual
 venv/
+.venv/
+env/
+
+# Configurações do VS Code
 .vscode/
-./memoria/__pycache__
-./logs
-./graficos
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pastas específicas do seu projeto
+/memoria/__pycache__/
+/logs/
+/graficos/
+
+# Arquivos gerados pelo sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de log e debug
+*.log
+*.tmp
